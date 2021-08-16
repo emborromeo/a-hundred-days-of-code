@@ -1,0 +1,10 @@
+mutable= they can be changed
+
+
+immutable = cannot be changed
+-tuple ()
+
+
+python           |    javassript
+list                     array
+dictionaries            associative array, map, table
