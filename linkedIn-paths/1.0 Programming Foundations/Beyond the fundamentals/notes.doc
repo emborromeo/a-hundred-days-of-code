@@ -8,3 +8,80 @@ immutable = cannot be changed
 python           |    javassript
 list                     array
 dictionaries            associative array, map, table
+
+
+##external types of code
+-module- file that containes code, like variables or functions 
+-package or library- using nultiple modules together so they are distributed and used in a group
+-framework- when a set of code is not just used together but used in a specific way
+
+module is like a class
+
+popular python libraries
+-tensor flow
+-pandas
+-numpy
+-scipy
+
+frameworks
+-django
+-flask
+
+javascript library
+-lodash 
+-jquery
+
+frameworks
+-react
+-angular
+-vue
+
+##string
+
+concatenation
+
+.capitalize()
+.find()
+.index()
+.rfind()
+.rindex()
+
+slicing- getting part of a string
+
+regular expression- allowas you to create a description of a patern that you want to match (regex)
+
+-letters
+-numbers
+-special characters
+
+/hello/ - you can indicate specific text you're looking for by enclosing it in slashes.
+\d - indicates a digit, 
+\w - indicates a word character like a letter,
+. - dot indicates any character
++ - use the plus sign to indicate one or more occurrences of the preceding pattern
+* - Asterisk indicates zero or more and question mark indicates zero or one.
+? - zero or one
+
+style guides- documentation on approaches to code
+industry guidelines
+
+airbnb javascript style guides
+
+pseudocode- writing a description of what you;re trying to do using plain language
+
+input/outpput 
+
+
+
+
+computer storage
+drive
+-programs
+-data
+
+memory
+-running code
+-results
+
+garbage collection
+-an autoomated memory managemnent process that keeps track of which items aren't needed and deletes them
