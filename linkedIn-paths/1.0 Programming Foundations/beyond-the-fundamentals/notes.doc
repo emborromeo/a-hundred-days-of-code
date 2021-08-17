@@ -69,12 +69,27 @@ airbnb javascript style guides
 
 pseudocode- writing a description of what you;re trying to do using plain language
 
-input/outpput 
+##input/outpput 
 
 
 
+##debugging- identifying and fixing bugs
+-syntax error - code that doesn't match the rules of the language
+-run-time error - error is not actually obvious until the code is run
+-logic error - type of error that happens when you write code that runs but doesn't produce the results you want
 
-computer storage
+
+syntax highlighting - easier to read code
+autocompletion
+linting-  check for bugs before you even execute it
+
+test cases- commands oor scripts designed to test a specific scenario
+
+##object-oriented programming
+class
+
+
+##computer storage
 drive
 -programs
 -data
@@ -85,3 +100,6 @@ memory
 
 garbage collection
 -an autoomated memory managemnent process that keeps track of which items aren't needed and deletes them
+
+##algorithm
+-
