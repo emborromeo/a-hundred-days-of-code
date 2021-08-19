@@ -1,2 +1,59 @@
-algorithms
+##algorithms
+
+*algorithm complexity
+-space - how much memory does i require
+-time - how much time does it take to complete
+
+*inputs and outputs
+what does the algorithm acept, andd what are the results
+
+*classification
+serial/parallel - Some algorithms work on their data sets in sequential fashion, which means that they are serial in nature. Whereas a parallel algorithm can break up a data set into smaller pieces and then work on each simultaneously.
+
+exact/approximate - an algorithm can be exact, in which case it produces a known predictable value, or it can be approximate, in which case, it tries to find an answer that might or might not be exact. 
+
+deterministic/non-determiinistic - Algorithms can be deterministic, in which case it executes each step with an exact decision, or it could be non-deterministic, in which it attempts to produce a solution using successive guesses, which become more accurate over time
+
+##common algorithms
+
+-search Algorithms
+find specific data in a structure
+
+-sorting allgorithms
+take dataset and apply  sort order to it
+
+-compputational algorithms
+given one set of data, calculato another
+
+-collection algorithms
+work with collections of data
+
+
+euclid's algorithm
+
+
+big-o notation
+classifies performance as the input grows
+o indicates the oorder of operation: time scale to perform an operation
+
+many algorithms and data structures have more than one o
+common big-o terms
+0(1)      | constant time | looking up a single element in an array  
+0(log n)  | logarithmic   | finding an item in a sorted array with a binary search
+0(n)      | linear time   | searching an unsorted array for a specific value          
+0(n log n)| log-linear    | complex sorting algorithms like heap sort and merge sort     
+0(n^2)    | quadratic     | simple sorting algorithm, such as bubble, selection and insertion sort
+
+
+## common data structures
+used to organizer data so it can be processed
+-arrays - collection of elements identified by indeex or key
+
+-linked lists
+
+-stacks 7 queuees
+
+-trees
+
+-hash tables
 
