@@ -57,4 +57,33 @@ used to organizer data so it can be processed
 
 -hash tables
 
-   
+recursion
+
+
+
+sorting data
+-most modern languages have sortinng built in
+
+*bubble sort
+-very simple to understand and implement
+-performance O(n^2)
+    for loopps inside of for loops are usually n^2
+
+-other sorting algorithms are generrally much  better
+-not considered to be apractical solution
+
+*merge sort (uses recursion)
+-divide-and-conquer algorithm
+-breaks a dataset into individual pieces and merges them
+-uses recursion to operate on datasets
+-performs well on large setes of data-in general has a perforamnec of O(n log n) time complexity
+
+
+*quicksort
+-divide-and-conquer algorithm
+-uses recursion to perorm sorting
+-genrallyy performs better than merge sort, O(n log n)
+-operates in place on the data
+-worst case is O(n2) when data is mostly sorted already
+
+pivot point selection
