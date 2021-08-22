@@ -4,3 +4,67 @@
 schema -how data in a database will be organized
 
 Pragmatics is the third general area of language description, referring to practical aspects of how constructs and features of a language may be used to achieve various objectives. Consider, for example, the syntax, semantics and pragmatics of an assignment statement.
+
+table-entities
+
+##relational database - made up of relations or tables which are the set of columns, and these tables als contain rows also contain rows
+relation - set of columns of related data
+
+*column data types
+
+
+
+-unique - unique value is a value that doesn't show up in any other row in a given column. So there's one and only one of any particular value for that particular field. 
+-primary -  Unique values can also be used as keys. A key is a value we can use to refer to only one specific row or record.
+-synthetic key or surrogate key -  In many cases, there isn't a natural piece of information that can be used as a key, so we need to provide one. We can do this by adding a column to a table and setting that column to require a unique value. In many DBMS tools, this is done by making the value in the new column a number and telling the database to increment the number for every new number that's added. When we add a field like this, we create a synthetic key or a surrogate key
+-composite key - two or more fields taken together to act as a unique identifier
+-foreign key  -  this is what a primary key from one table is called when it's referenced in another table
+
+
+##relationships
+*one-to-many - one record in one table with multiple records in another table
+uses foreignn key
+
+
+*many-to-many
+linking table - contains columns for the foreiggn keys
+
+*one-to-one - only one record on the table wiith onl one record on the other table
+
+##acid & transactions
+transaction - set of operations that must be all completed, if fnot all completed, no changes weill be saved
+
+A - atomic - transaction is indivisible
+c - consistent - whatever the transactvions does, it needs to leave the database in a valid or consstent state
+i - isolated -while the activites in the transaction are b eing completed, nothing else can make changes to the data involved
+d - durable - means that the information we change in the transaction actually gets written to the database.
+
+
+##sql 
+rdbms - relational database management system
+
+allows us to write statements which the DBMS interprets, and that's how we interact with the data in the database, from apps, or even within the DBMS itself.
+
+SQL also offers features to manage the database itself by creating and modifying tables and controlling access to tables. In these roles, SQL acts as a DDL or a data definition language, and a DCL, or a data control language.
+
+clause
+predicate 
+expression
+
+
+Entity relaationship diagram (ER diagram)
+a diagra that uses tables, fields, and relationships to plan a database
+
+what does your database need tto store
+-database needs
+ 
+/tables name capital letters
+/?field/column should be singular and upper camel casae
+
+char is usually reserved for fields where wew know we haave an exact number of char
+date 
+datetime
+timestamp
+
+
+null - absence of a value
