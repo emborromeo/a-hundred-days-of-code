@@ -69,7 +69,7 @@ timestamp
 
 null - absence of a value
 
-denormalization
+
 
 referential integrity- databases are aware of relationships and won't allow a user to modify data in a way tha violates those relationships
 
@@ -77,7 +77,26 @@ referential integrity- databases are aware of relationships and won't allow a us
 
 
 ## normalization rules
+normalization helps us prevent problems in working with our data, and the proocessed should be revisited whenever there's a change to the schema
 
-* first normal form (1nf)
+
+
+* first normal form (1nf) 
+values in each cell should be atomic and tables should have no repeating groups
+
 * second normal form (2nf)
+no value in a table should depend on only part of a key that can be used to uniquely identify a row
+
+composite key
+
 * third normal form (3nf)
+values should not be stored if they can be calcualted from another non-key field
+
+## denormalization
+the process of intentionally duplicating information in a table, in violation of normalization rules
+- done to a previously normalized database
+- a trade-off. gaining speed may reduce consistency
+
+
+## structured query language
+- can bee used as a data definition language (ddl) and a data manipulation language (dml)
