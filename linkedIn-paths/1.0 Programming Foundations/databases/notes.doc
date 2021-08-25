@@ -68,3 +68,16 @@ timestamp
 
 
 null - absence of a value
+
+denormalization
+
+referential integrity- databases are aware of relationships and won't allow a user to modify data in a way tha violates those relationships
+
+-helps to keep the database consistent and accurate
+
+
+## normalization rules
+
+* first normal form (1nf)
+* second normal form (2nf)
+* third normal form (3nf)
