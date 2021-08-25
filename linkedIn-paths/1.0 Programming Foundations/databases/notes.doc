@@ -107,3 +107,80 @@ the process of intentionally duplicating information in a table, in violation of
 
 
    order by = sort
+  
+##aggregate functions
+  count function = how many rows match our criteria have a value in tha field
+   
+## joining tables
+- for result only
+
+SELECT FirstName, FavoriteDish, Dishes.DishId, Dishes.`Name` FROM Customers JOIN Dishes ON Custoers.FAvoriteDish = Dishes.DishID;
+
+
+
+all records containing a first name starting with letter A
+WHERE FirstName LIKe "A%"
+
+ SQL statements to create or modify the structure of a database, SQL is being used as
+a Data Definition Language (DDL)
+
+
+## indexes, transactions and stores procedures
+
+stored procedures - are a  series of commands stored on the database
+- allow reuse of long or detailed quueries instead of writing them for each use
+- provide a safe way to deal with sensitive data
+
+## access control, comppliance and injection
+access control - user accounts
+               - table and column permissions
+
+* access control and comppliance
+- consider busness requirements when granting acces to database and data
+- important to understand compliance regulations
+   - personally identifiable information (pii) is strictly regulated in some reqions and industries
+    - HIPAA in the US and GDPR in the EU have stric rules about how PII is handled
+
+* SQL injection
+- type of attack that includes part of a SQL command entered as a value to hijack a query and changge how it works
+
+
+common relational database management systems (rdbms)
+- microsoft sql server
+- oracle
+- dbase 
+- filemake pro 
+- microsoft access
+- mysql
+- mariadb
+- sap hana
+- sql lite
+
+## desktop database
+
+- used for smaller solutions 
+- hosted on workstation 
+
+examples: access, filemaker pro
+
+## enterprise databaase
+- used by large number of people
+- services milliions of interactions
+
+exampples: sql server, oracle, sap hana
+
+## mysql and mariadb
+- great for prototyping
+- able to handle thousands of clients
+
+solutions for different database sizes
+- sql lite is great for mobile applications
+- big data may require frameworks like hadoop or spark
+
+## nosql (not only sql )
+- unstructured data
+-  key value pairs
+- graphs
+- objects 
+- geographic data points
+- posts and comments -> streamed data 
